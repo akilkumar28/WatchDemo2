@@ -11,4 +11,5 @@ import WatchKit
 
 class IndexRowType: NSObject {
 
+    @IBOutlet var nameLbl: WKInterfaceLabel!
 }

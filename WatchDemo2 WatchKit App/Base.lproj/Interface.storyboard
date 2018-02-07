@@ -14,20 +14,35 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchDemo2_WatchKit_App" customModuleProvider="target">
                     <items>
+                        <group width="1" alignment="left" id="o9E-Lb-mos">
+                            <items>
+                                <imageView width="31" height="28" alignment="center" image="White Paw" contentMode="scaleAspectFit" id="CgH-eJ-slT"/>
+                            </items>
+                        </group>
+                        <separator alignment="left" id="Pt7-ri-yvy"/>
                         <table alignment="left" id="d2c-8v-hFL">
                             <items>
                                 <tableRow identifier="cell" id="R33-Fb-gxA" customClass="IndexRowType" customModule="WatchDemo2_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="aLO-bQ-f57">
                                         <items>
-                                            <label width="1" height="1" alignment="left" verticalAlignment="center" text="Label" id="fVD-eH-XWg"/>
+                                            <label width="1" height="1" alignment="left" verticalAlignment="center" text="Label" id="fVD-eH-XWg">
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <outlet property="nameLbl" destination="fVD-eH-XWg" id="XQR-s2-Qed"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="myTableView" destination="d2c-8v-hFL" id="gda-sY-hQd"/>
+                    </connections>
                 </controller>
             </objects>
+            <point key="canvasLocation" x="-20" y="82"/>
         </scene>
         <!--Breed InterfaceVC-->
         <scene sceneID="M2Z-iH-UQT">
@@ -36,7 +51,10 @@
                     <items>
                         <group width="1" alignment="left" layout="vertical" id="6jO-qq-tB9">
                             <items>
-                                <label alignment="left" text="Labrador" id="qU8-aB-Axq"/>
+                                <label alignment="left" text="Labrador" id="qU8-aB-Axq">
+                                    <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                </label>
                                 <separator alignment="left" id="9pM-rE-MfZ"/>
                                 <group width="1" alignment="left" id="Aq0-vu-4yy">
                                     <items>
@@ -79,14 +97,17 @@
                                 <separator alignment="left" id="o0m-Qn-1Je"/>
                                 <label alignment="left" text="Temperament:-" id="Nj0-md-PM7">
                                     <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
                                 </label>
-                                <label alignment="left" text="Charming, Fearless, Cute, Loyal" numberOfLines="0" id="nY4-K4-zSt"/>
+                                <label width="1" alignment="left" text="Charming, Fearless, Cute, Loyal" numberOfLines="0" id="nY4-K4-zSt">
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                </label>
                             </items>
                         </group>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="283" y="288"/>
+            <point key="canvasLocation" x="287" y="44"/>
         </scene>
     </scenes>
 </document>
