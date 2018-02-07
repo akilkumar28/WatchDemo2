@@ -19,6 +19,8 @@
 		89F06597202A9E9200991A8A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F06596202A9E9200991A8A /* InterfaceController.swift */; };
 		89F06599202A9E9200991A8A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F06598202A9E9200991A8A /* ExtensionDelegate.swift */; };
 		89F0659B202A9E9200991A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F0659A202A9E9200991A8A /* Assets.xcassets */; };
+		89F065AD202AA18500991A8A /* IndexRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F065AC202AA18500991A8A /* IndexRowType.swift */; };
+		89F065AF202AA2C600991A8A /* BreedInterfaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F065AE202AA2C600991A8A /* BreedInterfaceVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		89F06598202A9E9200991A8A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		89F0659A202A9E9200991A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89F0659C202A9E9200991A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89F065AC202AA18500991A8A /* IndexRowType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexRowType.swift; sourceTree = "<group>"; };
+		89F065AE202AA2C600991A8A /* BreedInterfaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedInterfaceVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,8 @@
 				89F06598202A9E9200991A8A /* ExtensionDelegate.swift */,
 				89F0659A202A9E9200991A8A /* Assets.xcassets */,
 				89F0659C202A9E9200991A8A /* Info.plist */,
+				89F065AC202AA18500991A8A /* IndexRowType.swift */,
+				89F065AE202AA2C600991A8A /* BreedInterfaceVC.swift */,
 			);
 			path = "WatchDemo2 WatchKit Extension";
 			sourceTree = "<group>";
@@ -298,6 +304,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F065AD202AA18500991A8A /* IndexRowType.swift in Sources */,
+				89F065AF202AA2C600991A8A /* BreedInterfaceVC.swift in Sources */,
 				89F06599202A9E9200991A8A /* ExtensionDelegate.swift in Sources */,
 				89F06597202A9E9200991A8A /* InterfaceController.swift in Sources */,
 			);
