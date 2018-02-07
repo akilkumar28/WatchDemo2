@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="-20" y="82"/>
         </scene>
-        <!--Breed InterfaceVC-->
+        <!--vc2-->
         <scene sceneID="M2Z-iH-UQT">
             <objects>
-                <controller id="ivM-GB-msP" customClass="BreedInterfaceVC" customModule="WatchDemo2_WatchKit_Extension">
+                <controller identifier="vc2" id="ivM-GB-msP" customClass="BreedInterfaceVC" customModule="WatchDemo2_WatchKit_Extension">
                     <items>
                         <group width="1" alignment="left" layout="vertical" id="6jO-qq-tB9">
                             <items>
@@ -105,6 +105,14 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="age" destination="fb2-iH-l6H" id="QV1-QZ-jJ3"/>
+                        <outlet property="dogName" destination="qU8-aB-Axq" id="74D-df-Pi6"/>
+                        <outlet property="hypo" destination="mXd-TQ-c0A" id="dpC-8U-VDG"/>
+                        <outlet property="imageview" destination="mab-rU-bHy" id="ru6-zj-Ipb"/>
+                        <outlet property="mass" destination="ORN-0W-rFW" id="Hs5-At-n4z"/>
+                        <outlet property="temperament" destination="nY4-K4-zSt" id="yKt-ea-lSg"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="287" y="44"/>

@@ -41,11 +41,15 @@ class InterfaceController: WKInterfaceController {
          "image": "Siberian Husky"]
     ]
     
+    override init() {
+        super.init()
+        
+        loadData()
+    }
     
 
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        loadData()
         // Configure interface objects here.
     }
     
@@ -57,6 +61,11 @@ class InterfaceController: WKInterfaceController {
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
+    }
+    
+    
+    override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
+        pushController(withName: "vc2", context: dogs[rowIndex])
     }
     
     func loadData(){
